@@ -1,0 +1,6 @@
+html[data-theme=light] {
+  --background-color: var(--diamond-white-color);
+  --text-color: var(--midnight-navy-dark-color);
+}
+
+/*# sourceMappingURL=light_theme.css.map */

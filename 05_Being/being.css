@@ -13,4 +13,9 @@ html[data-theme=light] {
   --diamond-white-color: #ecefec;
 }
 
-/*# sourceMappingURL=colors.css.map */
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+/*# sourceMappingURL=being.css.map */

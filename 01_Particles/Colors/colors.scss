@@ -1,10 +1,7 @@
-$tetris-blue: #022970;
-$tetris-blue-light: #acb8e8ff;
-$tetris-blue-dark: #000044;
+@import '../Themes/dark_theme';
+@import '../Themes/light_theme';
 
-$tetris-yellow: #fcd234;
-$tetris-yellow-light: #ffff6a;
-$tetris-yellow-dark: #c5a100;
-
-$midnight-navy-dark: #0a0e1d;
-$diamond-white: #ecefec;
+:root {
+  --midnight-navy-dark-color: #0a0e1d;
+  --diamond-white-color: #ecefec;
+}
