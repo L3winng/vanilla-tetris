@@ -39,6 +39,7 @@ Thumbs.db
 # Intellij generated files #
 ######################
 .idea/
+node_modules/
 
 # Scss  #
 ######################

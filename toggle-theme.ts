@@ -5,7 +5,7 @@ if (storedTheme)
     document.documentElement.setAttribute('data-theme', storedTheme)
 
 
-toggle.onclick = function() {
+toggle.onclick = function () {
     console.log('huhu')
 
     const currentTheme = document.documentElement.getAttribute("data-theme");
