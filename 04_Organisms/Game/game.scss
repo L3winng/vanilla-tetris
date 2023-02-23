@@ -1,0 +1,7 @@
+@import '../../01_Particles/Colors/dark_theme';
+
+.game {
+  &{
+    background-color: $main-color;
+  }
+}

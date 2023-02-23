@@ -1,0 +1,26 @@
+html[data-theme=dark] {
+  --primary-color: var(--diamond-white-color);
+  --secondary-color: var(--diamond-white-color);
+  --background-color: var(--midnight-navy-dark-color);
+  --text-color: var(--diamond-white-color);
+}
+
+html[data-theme=light] {
+  --primary-color: var(--diamond-white-color);
+  --secondary-color: var(--diamond-white-color);
+  --background-color: var(--diamond-white-color);
+  --text-color: var(--midnight-navy-dark-color);
+}
+
+:root {
+  --midnight-navy-dark-color: #0a0e1d;
+  --diamond-white-color: #ecefec;
+  --black-color: black;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+/*# sourceMappingURL=being.css.map */
