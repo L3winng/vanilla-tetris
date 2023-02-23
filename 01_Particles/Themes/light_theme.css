@@ -1,4 +1,6 @@
 html[data-theme=light] {
+  --primary-color: var(--diamond-white-color);
+  --secondary-color: var(--diamond-white-color);
   --background-color: var(--diamond-white-color);
   --text-color: var(--midnight-navy-dark-color);
 }

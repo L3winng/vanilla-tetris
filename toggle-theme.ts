@@ -1,18 +1,4 @@
-/*
-const buttons = document.querySelectorAll(".theme-switch");
-
-buttons.forEach(button => {
-    button.addEventListener('click', setTheme);
-})
-
-function setTheme($event){
-    document.body.dataset.theme = $event.target.dataset.theme;
-}
-*/
-
 const toggle = document.getElementById("theme-toggle");
-
-
 
 const storedTheme = localStorage.getItem('theme') || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
 if (storedTheme)
@@ -32,4 +18,3 @@ toggle.onclick = function() {
     document.documentElement.setAttribute('data-theme', targetTheme)
     localStorage.setItem('theme', targetTheme);
 };
-
