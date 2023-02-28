@@ -1,5 +1,1 @@
-.game {
-  background-color: #0a0e1d;
-}
-
-/*# sourceMappingURL=game.css.map */
+body::before{font-family:"Source Code Pro","SF Mono",Monaco,Inconsolata,"Fira Mono","Droid Sans Mono",monospace,monospace;white-space:pre;display:block;padding:1em;margin-bottom:1em;border-bottom:2px solid #000;content:"Error: Can't find stylesheet to import.\a   ╷\a 1 │ @import '../../01_Particles/Colors/dark_theme';\a   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   ╵\a   game.scss 1:9  root stylesheet"}
