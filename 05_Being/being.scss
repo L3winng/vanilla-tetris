@@ -1,6 +1,10 @@
-@import  '../01_Particles/Colors/colors';
+@import '../01_Particles/Colors/colors';
 
 body {
   background: var(--background-color);
   color: var(--text-color);
+}
+
+.title {
+  background-color: green;
 }
