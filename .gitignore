@@ -41,7 +41,12 @@ Thumbs.db
 .idea/
 node_modules/
 
-# Scss  #
+# Scss files  #
 ######################
+.scss
 .sass-cache/
 *.css.map
+
+# Typescript files  #
+.ts
+.jsx
